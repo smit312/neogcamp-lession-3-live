@@ -2,10 +2,13 @@
 :root
 {
     --primary-color : #7C3AED;
+    --dark-gray : #9CA3AF;
+    --off-white :#D1D5DB;
 }
 body
 {
     font-family: 'Padauk', sans-serif;
+    margin: 0px;
 }
 /** container **/
 .container
@@ -77,4 +80,60 @@ hr
 {
     font-weight: bold;
     font-size: 1.2rem;
+}
+/**header**/
+.hero
+{
+    padding : 2rem;
+}
+.hero .hero-image 
+{
+    max-width: 350px;
+    display :block;
+    margin: auto;
+}
+.hero .hero-heading
+{
+    padding-top: 1rem;
+  text-align: center;
+  color: var(--dark-gray);
+  
+}
+.hero .hero-heading .heading-inverted
+{
+   color :black;
+
+}
+/**section**/
+.section
+{
+    padding :2rem;
+}
+.section h1 
+{
+    text-align: center;
+ 
+
+}
+.ow 
+{
+    background-color: var(--off-white);
+}
+/** footer **/
+.footer
+{
+    background-color: var(--primary-color);
+    padding :2rem 1rem ;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+
+}
+.footer .link 
+{
+    color : white;
+}
+.footer ul
+{
+    padding-inline-start: 0px;
 }
