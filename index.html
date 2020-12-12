@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <center><h1> welcome to smit thakkar componant library</h1></center>
+    <h1> welcome to smit thakkar componant library</h1>
  
     <p>i am attending neog camp and i want to make a library which would make all my projects look good and consistent.</p>
 
@@ -21,47 +21,47 @@
 <hr>
 <h2>@container</h2>
 <h3>fluid-container</h3>
-<div>this is fluid-container</div>
+<div class="container">this is fluid-container</div>
 
 <h3>center-container</h3>
-<div>this is the centered container</div>
+<div class="container container-center">this is the centered container</div>
 
 <hr>
 <h2>@links</h2>
-<a href="/">primary link</a>
-<a href="/">secondary link</a>
+<a class ="link primary-link " href="/">primary link</a>
+<a class="link secondary-link" href="/">secondary link</a>
 <hr>
 <h2>@lists</h2>
 <h3>unorderd list</h3>
-<ul>
+<ul class="non-bullet">
     <li>item one</li>
     <li>item two</li>
     <li>item three</li>
 </ul>
 <h3>unorderd inline list</h3>
-<ul>
-    <li>inline item one</li>
-    <li>inline item two</li>
-    <li>inline item three</li>
+<ul class="non-bullet">
+    <li class="list-item-inline">inline item one</li>
+    <li class="list-item-inline">inline item two</li>
+    <li class="list-item-inline">inline item three</li>
 </ul>
 <h3>orderd list</h3>
-<ol>
+<ol reversed>
     <li>milk</li>
     <li>buttermilk</li>
 </ol>
 <hr>
 <h2>@nav</h2>
-<nav>
-    <div>IAMBRAND</div>
-    <UL>
-        <li>
-            <a href="/">home</a>
+<nav class="navigation container">
+    <div class="nav-brand">IAMBRAND</div>
+    <UL class="non-bullet nav-pills">
+        <li class="list-item-inline ">
+            <a class="link link-active  "href="/"> home</a>
         </li>
-        <li>
-            <a href="/">products</a>
+        <li class="list-item-inline">
+            <a class="link link-active"href="/">products</a>
         </li>
-        <li>
-            <a href="/">about</a>
+        <li class="list-item-inline"> 
+            <a class = "link link-active"href="/">about</a>
         </li>
     </UL>
 </nav>
