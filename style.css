@@ -24,8 +24,11 @@ body
 /* link */
 
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 
 }
 .primary-link
@@ -128,6 +131,10 @@ hr
     color: white;
     border-top-right-radius: 1rem;
 
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 .footer .link 
 {
