@@ -36,6 +36,7 @@ body
     background-color : var(--primary-color);
     border-radius: 00.5rem;
     color :white;
+    
    
 }
 .secondary-link
@@ -99,7 +100,7 @@ hr
 {
     padding-top: 1rem;
   text-align: center;
-  color: var(--dark-gray);
+  color: var(--primary-color);
   
 }
 .hero .hero-heading .heading-inverted
@@ -144,3 +145,4 @@ hr
 {
     padding-inline-start: 0px;
 }
+
