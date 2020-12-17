@@ -29,6 +29,7 @@ body
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    
 
 }
 .primary-link
@@ -36,6 +37,15 @@ body
     background-color : var(--primary-color);
     border-radius: 00.5rem;
     color :white;
+    
+   
+}
+.primary-link2
+{
+    background-color : var(--primary-color);
+    border-radius: 00.5rem;
+    color :white;
+ 
     
    
 }
@@ -144,5 +154,9 @@ hr
 .footer ul
 {
     padding-inline-start: 0px;
+}
+.custom
+{
+    color:#7C3AED;
 }
 
